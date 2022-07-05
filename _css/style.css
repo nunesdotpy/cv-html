@@ -46,7 +46,12 @@ h4 {
     font-size: 14px;
 }
 
-footer div{
+hr {
+    margin-top: 25px;
+    margin-bottom: 25px;
+}
+
+code{
     margin: auto;
     text-align: center;
 }
