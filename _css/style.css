@@ -45,3 +45,12 @@ h4 {
 .desc p {
     font-size: 14px;
 }
+
+footer {
+    margin: auto;
+    text-align: center;
+}
+
+a{
+    color: blue;
+}
