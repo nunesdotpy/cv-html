@@ -2,4 +2,4 @@
 
 ## Made with HTML5 and CSS3
 
-Avaible on cv.nunesdotpy.tech as well
+Avaible on http://cv.nunesdotpy.tech as well
