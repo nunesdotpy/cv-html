@@ -51,11 +51,31 @@ hr {
     margin-bottom: 25px;
 }
 
-.code{
+.code {
+    font-size: 14px;
     margin: auto;
     text-align: center;
 }
 
-a{
+a {
     color: blue;
+}
+
+.flags {
+    display: flex;
+    justify-content: flex-end;
+}
+
+.flags img {
+    opacity: 0.5;
+    height: 32px;
+    border-radius: 5px;
+}
+
+.flags img:hover {
+    opacity: 1;
+}
+
+footer {
+    height: 0px;
 }
