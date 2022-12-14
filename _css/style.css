@@ -1,0 +1,81 @@
+body {
+    background-color: grey;
+}
+
+main {
+    border-radius: 25px;
+    max-width: 800px;
+    margin: auto;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    padding: 48px;
+    background-color: white;
+}
+
+.contatos p {
+    align-items: center;
+    padding: 8px;
+}
+
+.contatos a {
+    color: black;
+}
+
+.contatos img {
+    float: left;
+}
+
+.desc h3 {
+    font-size: 20px;
+    padding-top: 20px;
+}
+
+h2 {
+    font-size: 20px;
+    margin-left: 24px;
+    margin-bottom: 25px;
+}
+
+h2,
+h3,
+h4 {
+    font-weight: normal;
+}
+
+.desc p {
+    font-size: 14px;
+}
+
+hr {
+    margin-top: 25px;
+    margin-bottom: 25px;
+}
+
+.code {
+    font-size: 14px;
+    margin: auto;
+    text-align: center;
+}
+
+a {
+    color: blue;
+}
+
+.flags {
+    display: flex;
+    justify-content: flex-end;
+}
+
+.flags img {
+    opacity: 0.5;
+    height: 32px;
+    border-radius: 5px;
+}
+
+.flags img:hover {
+    opacity: 1;
+}
+
+footer {
+    height: 0px;
+}
