@@ -2,6 +2,23 @@ body {
     background-color: grey;
 }
 
+.navbar {
+    display: flex;
+    justify-content: flex-end;
+}
+
+#us-flag {
+    opacity: 0.5;
+}
+
+#us-flag:hover{
+    opacity: 1;
+}
+
+.idiomas img {
+    height: 20px
+}
+
 main {
     border-radius: 25px;
     max-width: 800px;
@@ -59,21 +76,6 @@ hr {
 
 a {
     color: blue;
-}
-
-.flags {
-    display: flex;
-    justify-content: flex-end;
-}
-
-.flags img {
-    opacity: 0.5;
-    height: 32px;
-    border-radius: 5px;
-}
-
-.flags img:hover {
-    opacity: 1;
 }
 
 footer {
