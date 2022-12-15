@@ -1,4 +1,4 @@
-
+// Definição das flags
 const brflag = document.getElementById("br-flag");
 const usflag = document.getElementById("us-flag");
 

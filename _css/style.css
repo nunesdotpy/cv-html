@@ -7,16 +7,13 @@ body {
     justify-content: flex-end;
 }
 
-#us-flag {
-    opacity: 0.5;
-}
-
-#us-flag:hover{
-    opacity: 1;
-}
-
 .idiomas img {
-    height: 20px
+    height: 20px;
+    opacity: 0.8;
+}
+
+.idiomas img:hover {
+    opacity: 1;
 }
 
 main {
