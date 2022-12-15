@@ -46,6 +46,6 @@ const engLang = () => {
     upTxt("languages","Languages");
     upTxt("languages-1","Portuguese - Native");
     upTxt("languages-2","English – Intermediary EF SET: B2");
-    upText("languages-3","Spanish - Basic");
+    upTxt("languages-3","Spanish - Basic");
 }
 
