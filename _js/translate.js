@@ -2,15 +2,32 @@
 const brflag = document.getElementById("br-flag");
 const usflag = document.getElementById("us-flag");
 
-// Reloada a página
-const ptLang = () => {
-    window.location.reload();
-}
 
 // Função para encurtar as linhas de texto e otimizar a tradução
 const upTxt = (id,texto) => {
     document.getElementById(id).innerHTML = `${texto}`;
 }
+
+// Reloada a página
+const ptLang = () => {
+    upTxt("description","Brasileiro | Solteiro | 20 anos");
+    upTxt("goals","Objetivo");
+    upTxt("goals-text","Desenvolver atividades que tenha por finalidade contribuir para o meu desenvolvimento profissional e pessoal, aperfeiçoar e expandir meu conhecimento em desenvolvimento front-end e explorar novas tecnologias");
+    upTxt("profile","Perfil");
+    upTxt("profile-text","Interesse e facilidade em aprender, determinado e comprometido.");
+    upTxt("skills","Habilidades");
+    upTxt("skills-text","Conhecimento em HTML, CSS, JavaScript, Bootstrap, Git, Angular, ReactJS, NodeJS, WordPress, PHP, MySQL, MongoDB, Python e Java. Experiência em ambiente Linux e em Google Cloud.");
+    upTxt("grad","Formação");
+    upTxt("grad-text","4° período de ciência da computação na Faculdade Estácio de Sá – Turno: Noite");
+    upTxt("pro","Experiência profissional");
+    upTxt("pro-1","Escola Irmã Dulce - 21/02/2022 a 21/08/2022 - Estagiário de TI");
+    upTxt("pro-2","Ministério Público de Pernambuco – 20/05/2019 a 12/12/2019 - Estagiário de Auxiliar Administrativo");
+    upTxt("languages","Idiomas");
+    upText("languages-1","Português - Nativo");
+    upText("languages-2","Inglês – Intermediário EF SET: B2");
+    upTxt("languages-3","Espanhol - Básico");
+}
+
 
 // Traduz os textos para inglês
 const engLang = () => {
