@@ -23,8 +23,8 @@ const ptLang = () => {
     upTxt("pro-1","Escola Irmã Dulce - 21/02/2022 a 21/08/2022 - Estagiário de TI");
     upTxt("pro-2","Ministério Público de Pernambuco – 20/05/2019 a 12/12/2019 - Estagiário de Auxiliar Administrativo");
     upTxt("languages","Idiomas");
-    upText("languages-1","Português - Nativo");
-    upText("languages-2","Inglês – Intermediário EF SET: B2");
+    upTxt("languages-1","Português - Nativo");
+    upTxt("languages-2","Inglês – Intermediário EF SET: B2");
     upTxt("languages-3","Espanhol - Básico");
 }
 
