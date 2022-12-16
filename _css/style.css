@@ -97,3 +97,27 @@ a {
 footer {
     height: 0px;
 }
+
+@media (max-width: 555px) {
+    .info {
+        display: block;
+
+    }
+
+    .contatos{
+        margin: 15px;
+    }
+
+    .contatos img{
+        padding-top: 0px;
+    }
+
+    .photo{
+        margin: 15px;
+        align-items: center;
+    }
+
+    .photo img{
+        height: 300px;
+    }
+}
