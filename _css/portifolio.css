@@ -1,0 +1,18 @@
+*{
+    font-family: sans-serif;
+    color: white;
+
+
+}
+
+body {
+
+    background-color: rgb(210, 74, 228);
+
+}
+
+.container{
+    background-color: black;
+    margin: auto;
+    width: 200px;
+}
