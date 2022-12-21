@@ -15,7 +15,7 @@
     <header>
         <div class="navbar">
             <!-- itens -->
-            <div class="showItems">
+            <div hidden class="showItems">
                 <img src="assets/menu-outline.svg" alt="navbar">
             </div>
         </div>
@@ -23,19 +23,25 @@
 
     <div class="container">
         <div class="menu">
-            <img draggable="false" src="assets/home.svg" alt="Home">
-            <img draggable="false" src="assets/work.svg" alt="Portifolio">
-            <img draggable="false" src="assets/mail.svg" alt="Contato">
-            <img draggable="false" src="assets/github.svg" alt="Github">
+            <h1 id="pagelabel">Home</h1>
+            <div class="opt">
+                <img onclick="homePage()" id="home" draggable="false" src="assets/home.svg" alt="Home">
+                <img onclick="workPage()" id="work" draggable="false" src="assets/work.svg" alt="Portifolio">
+                <img onclick="contactPage()" id="contact" draggable="false" src="assets/mail.svg" alt="Contato">
+                <a href="https://github.com/nunesdotpy" target="_blank"><img draggable="false" src="assets/github.svg"
+                        alt="Github"></a>
+            </div>
         </div>
         <div class="cabecalho">
             <img src="_img/github-photo.jpeg" alt="nunesdotpy github photo">
         </div>
         <div class="desc">
             <p style="text-align: center;">João Nunes - nunesdotpy</p>
-            <p>Hi, my name is João Nunes, also know as nunesdotpy, I am a brazilian computational science student who loves front-end development, blockchain and decentralized projects. </p>
+            <p>Hi, my name is João Nunes, also know as nunesdotpy, I am a brazilian computational science student who
+                loves front-end development, blockchain and decentralized projects. </p>
         </div>
     </div>
+    <script src="_js/pages.js"></script>
 </body>
 
 </html>
