@@ -101,5 +101,11 @@ body {
     display: flex;
     justify-content: center;
     margin: auto;
+    margin-top: 25px;
     color: blue;
+}
+
+#title-text {
+    height: 120px;
+    margin-bottom: 50px;
 }
