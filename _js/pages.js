@@ -4,6 +4,13 @@ const title = document.getElementById("title");
 const description = document.getElementById("title-text");
 const img1 = document.getElementById("img1");
 
+// criando elementos
+const mainframe = document.querySelector(".cabecalho");
+const img = document.createElement("div").setAttribute("id","img");
+
+// definindo child
+
+
 // função para mudança das pages
 const homePage = () => {
     label.innerText = "Home";
