@@ -8,6 +8,7 @@ let workShowing = 0;
 
 // page 0 = home, 2 = work e 3 = contato
 let page = 0;
+workShowing = 0;
 
 // criando elementos
 const mainframe = document.querySelector(".cabecalho");
@@ -58,15 +59,9 @@ const workPage = () => {
     label.innerText = "Trabalhos";
     img.removeAttribute("id", "img")
     img.setAttribute("class", "works");
-    img.setAttribute("src", "_img/work1.jpeg");
     txtPage.setAttribute("hidden","")
-    txtPage.innerText = "Aqui você vai ver um pouco sobre alguns projetos que finalizei ou venho desenvolvendo";
-    title.innerText = "GxN Gaming";
-    description.innerText = `Site para disponibilizar servidores de jogos feito 100% em HTML, CSS e JavaScript. Função "clica e copia" ao clicar nos IPs para maior praticidade e comodidade ao usuário.`;
     arrow.style.display = "block"
-    clickhere.innerText = "Clique aqui para visitar";
-    clickhere.setAttribute("href", "https://gxn-network.com.br/");
-    workShowing = 0;
+    work();
 }
 
 const contactPage = () => {
@@ -74,7 +69,6 @@ const contactPage = () => {
     opacityReset();
     label.innerText = "Contatos";
     txtPage.innerText = "Algumas formas de você poder entrar em contato comigo:";
-    workShowing = 0;
 }
 
 const opacityReset = () => {
