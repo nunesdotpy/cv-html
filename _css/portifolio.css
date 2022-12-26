@@ -109,3 +109,22 @@ body {
     height: 120px;
     margin-bottom: 50px;
 }
+
+@media (min-width: 900px) {
+    .container {
+        width: 800px;
+    }
+
+    .desc {
+        margin: 50px;
+    }
+
+    .works {
+        height: 250px;
+    }
+
+    #title-text{
+        height: 60px;
+        margin-bottom: 0px;
+    }
+}
