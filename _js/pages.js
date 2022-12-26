@@ -61,6 +61,7 @@ const workPage = () => {
     img.setAttribute("class", "works");
     txtPage.setAttribute("hidden","")
     arrow.style.display = "block"
+    clickhere.innerText = "Clique aqui para visitar";
     work();
 }
 

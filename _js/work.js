@@ -28,7 +28,6 @@ const workGxn = () => {
     txtPage.innerText = "Aqui você vai ver um pouco sobre alguns projetos que finalizei ou venho desenvolvendo";
     title.innerText = "GxN Gaming";
     description.innerText = `Site para disponibilizar servidores de jogos feito 100% em HTML, CSS e JavaScript. Função "clica e copia" ao clicar nos IPs para maior praticidade e comodidade ao usuário.`;
-    clickhere.innerText = "Clique aqui para visitar";
     clickhere.setAttribute("href", "https://gxn-network.com.br/");
     img.setAttribute("src", "_img/work1.jpeg");
 }
