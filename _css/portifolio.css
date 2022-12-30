@@ -56,7 +56,7 @@ body {
     height: 40px;
 }
 
-.menu a:hover{
+.menu a:hover {
     opacity: 0.5;
 }
 
@@ -77,9 +77,36 @@ body {
     height: 225px;
 }
 
-.works{
+.works {
     height: 150px;
     border-radius: 10px;
+}
+
+.social-medias {
+    text-align: center;
+}
+
+.social-medias p {
+    text-align: center;
+    margin: -1px;
+}
+
+.social {
+    margin: 70px;
+    margin-top: 0px;
+}
+
+.social img {
+    height: 100px;
+}
+
+.social a:hover{
+    opacity: 0.8;
+}
+
+#linkedin{
+    border-radius: 15px;
+    background-color: white;
 }
 
 #title {
@@ -99,7 +126,7 @@ body {
 }
 
 #clickhere {
-    display: flex;
+    display: none;
     justify-content: center;
     margin: auto;
     margin-top: 25px;
@@ -125,7 +152,7 @@ body {
         height: 250px;
     }
 
-    #title-text{
+    #title-text {
         height: 60px;
         margin-bottom: 0px;
     }
