@@ -47,7 +47,7 @@ const homePage = () => {
     img.setAttribute("src", "_img/github-photo.jpeg");
     img.setAttribute("alt", "nunesdotpy github photo");
     title.innerText = "João Nunes";
-    description.innerText = "Oi, meu nome é João Nunes, também conhecido como nunesdotpy, sou um recifense graduante em ciência da computação. Adoro desenvolvimento front-end, projetos open-source e descentralizados! Aqui você vai conhecer um pouco mais sobre mim.";
+    description.innerText = "Oi, meu nome é João Nunes, também conhecido como nunesdotpy, sou um recifense graduante em ciência da computação. Adoro desenvolvimento front-end, projetos open-source e descentralizados! Aqui você vai conhecer um pouco mais sobre mim. Atualmente meu foco é em conquistar uma vaga de Dev Junior. Tenho domínio das tecnologias de HTML, CSS, JavaScript, Bootstrap e Git. Meu Inglês é avançado, tenho experiência com NodeJS e frameworks como ReactJS e Angular para desenvolvimento de soluções full-stack. Também tenho conhecimento e já desenvolvi projetos em C, PHP, Java, Python e utilização da metodologia SCRUM.";
     txtPage.innerText = "";
     arrow.style.display = "none";
     clickhere.innerText = "";
