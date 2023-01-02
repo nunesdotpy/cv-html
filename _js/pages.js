@@ -3,6 +3,7 @@ const label = document.getElementById("pagelabel");
 const title = document.getElementById("title");
 const description = document.getElementById("title-text");
 const clickhere = document.getElementById("clickhere");
+const email = "contato@nunesdotpy.com";
 clickhere.innerText = "Clique aqui para visitar";
 let workShowing = 0;
 
@@ -88,8 +89,11 @@ const contactPage = () => {
     contatos.style.display = "block";
     contatos.innerHTML = `
         <div class="social">
-            <img src="../_img/gmail.png"></img>
-            <p>contato@nunesdotpy.com</p>
+            <a class="email" href="#" onclick="copiarEmail()">
+                <img ed src="../_img/gmail.png"></img>
+                <input id="email" value="${email}">
+                <p>Clique para copiar</p>
+            </a>
         </div>
 
         <div class="social">
@@ -107,6 +111,10 @@ const contactPage = () => {
         </div>
     
     `
+}
+
+const copiarEmail = () => {
+    navigator.clipboard.writeText(email);
 }
 
 const opacityReset = () => {
