@@ -91,8 +91,8 @@ const contactPage = () => {
         <div class="social">
             <a class="email" href="#" onclick="copiarEmail()">
                 <img ed src="../_img/gmail.png"></img>
-                <input id="email" value="${email}">
-                <p>Clique para copiar</p>
+                <p>${email}</p>
+                <p id="copie">Clique para copiar</p>
             </a>
         </div>
 
