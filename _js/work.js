@@ -52,3 +52,10 @@ const workDoglife = () => {
     clickhere.setAttribute("href", "https://doglife.nunesdotpy.com/");
     img.setAttribute("src", "_img/work4.jpeg");
 }
+
+const execWorks = () => {
+    workGxn();
+    workDev();
+    workCv();
+    workDoglife();
+}

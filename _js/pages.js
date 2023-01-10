@@ -137,4 +137,10 @@ const opacityReset = () => {
     }
 }
 
-opacityReset();
+const execScripts = () => {
+    execWorks();
+    opacityReset();
+}
+
+// melhorar um pouco o desempenho dos scripts
+execScripts();
