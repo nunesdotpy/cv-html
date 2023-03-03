@@ -152,6 +152,7 @@ body {
 }
 
 #title-text {
+    margin: 20px;
     height: 120px;
     margin-bottom: 50px;
 }
