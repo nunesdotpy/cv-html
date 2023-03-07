@@ -34,7 +34,6 @@ mainframe.appendChild(contatos);
 
 // foto inicial do meu Github
 img.setAttribute("id", "img");
-img.setAttribute("src", "_img/github-photo.jpeg");
 img.setAttribute("alt", "nunesdotpy github photo");
 
 // arrow do work
@@ -137,8 +136,17 @@ const opacityReset = () => {
     }
 }
 
+const imgScript = () => {
+    img.setAttribute("src", "_img/work1.jpeg");
+    img.setAttribute("src", "_img/work2.jpeg");
+    img.setAttribute("src", "_img/work3.jpeg");
+    img.setAttribute("src", "_img/work4.jpeg");
+}
+
 const execScripts = () => {
-    execWorks();
+    contactPage();
+    imgScript();
+    homePage();
     opacityReset();
 }
 
