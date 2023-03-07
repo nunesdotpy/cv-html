@@ -42,7 +42,7 @@ const workDev = () => {
 const workCv = () => {
     title.innerText = "Currículo Online";
     description.innerText = `Primeira versão utilizada nesse site, tive a ideia de recriar meu CV existente em HTML e CSS para coloca-lo na internet. Hoje conta com responsividade para dispositivos mobiles e tradução de português para inglês.`
-    clickhere.setAttribute("href", "cv.html");
+    clickhere.setAttribute("href", "cv/");
     img.setAttribute("src", "_img/work3.jpeg");
 }
 
