@@ -10,11 +10,11 @@ const homePage = () => {
             <img src="_img/github-photo.jpeg" alt="nunesdotpy photo" />
         </div>
         <div class="resume">
-        <p>
-            Também conhecido como nunesdotpy, sou um desenvolvedor web de Recife
-            - PE e estou na área desde 2020. Venho aqui mostrar um pouco das
-            minhas experiências e conhecimento :)
-        </p>
+          <p>
+              Também conhecido como nunesdotpy, sou um desenvolvedor web de Recife
+              - PE e estou na área desde 2020. Venho aqui mostrar um pouco das
+              minhas experiências e conhecimento :)
+          </p>
         </div>
     `;
     pagesOp(0);
@@ -24,29 +24,35 @@ const homePage = () => {
 const workPage = () => {
     containerchild.innerHTML = `
         <div class="works">
-          <div class="project">
-            <div class="work-preview">
-              <img src="_img/work1.jpeg" alt="GxN Network" />
+          <a href="#" onclick="gxnWorkPage()">
+            <div class="project">
+              <div class="work-preview">
+                <img src="_img/work1.jpeg" alt="GxN Network" />
+              </div>
+              <h2>GxN Network</h2>
+              <p>Ver mais</p>
             </div>
-            <h2>GxN Network</h2>
-          </div>
+          </a>
           <div class="project">
             <div class="work-preview">
               <img src="_img/work2.jpeg" alt="UniDev" />
             </div>
             <h2>UniDev</h2>
+            <p>Ver mais</p>
           </div>
           <div class="project">
             <div class="work-preview">
               <img src="_img/work3.jpeg" alt="Curriculo Online" />
             </div>
             <h2>Curriculo Online</h2>
+            <p>Ver mais</p>
           </div>
           <div class="project">
             <div class="work-preview">
               <img src="_img/work4.jpeg" alt="DogMind" />
             </div>
             <h2>Blog DogMind</h2>
+            <p>Ver mais</p>
           </div>
         </div>
     `
@@ -58,7 +64,7 @@ const contactPage = () => {
         <div class="contact">
           <div>
             <a href="#" onclick="copiarEmail()" style="text-decoration: none;">
-              <svg
+              <svg class="contact-preview"
                 xmlns="http://www.w3.org/2000/svg"
                 fill="currentColor"
                 class="bi bi-envelope-at"
@@ -79,7 +85,7 @@ const contactPage = () => {
         <div class="contact">
           <div>
             <a href="https://twitter.com/nunesdotpy" target="_blank">
-              <svg
+              <svg class="contact-preview"
                 xmlns="http://www.w3.org/2000/svg"
                 fill="currentColor"
                 class="bi bi-twitter"
@@ -99,7 +105,7 @@ const contactPage = () => {
               href="https://www.linkedin.com/in/joao-nunes-1b49791bb/"
               target="_blank"
             >
-              <svg
+              <svg class="contact-preview"
                 xmlns="http://www.w3.org/2000/svg"
                 fill="currentColor"
                 class="bi bi-linkedin"
@@ -121,8 +127,4 @@ const copiarEmail = () => {
   navigator.clipboard.writeText("contato@nunesdotpy.com");
 };
 
-const execScripts = () => {
-    homePage();
-}
-
-execScripts();
+homePage();
