@@ -4,25 +4,33 @@ const containerchild = document.querySelector(".container-child");
 
 // criando a HOME
 const homePage = () => {
-    containerchild.innerHTML = `
-        <h1>Oi, me chamo João Nunes</h1>
+  containerchild.innerHTML = `
+        <h1>nunesdotpy</h1>
         <div class="github-photo">
-            <img src="_img/github-photo.jpeg" alt="nunesdotpy photo" />
+          <img src="_img/github-photo.jpeg" alt="nunesdotpy photo" />
         </div>
         <div class="resume">
           <p>
-              Também conhecido como nunesdotpy, sou um desenvolvedor web de Recife
-              - PE e estou na área desde 2020. Venho aqui mostrar um pouco das
-              minhas experiências e conhecimento :)
+            me chamo João Nunes, sou um desenvolvedor web de Recife
+            - PE e estou a procura de novos desafios. Venho aqui mostrar um pouco das
+            minhas experiências e conhecimento :)
           </p>
         </div>
+        <div class="stack">
+          <p>Tech Stack:</p>
+          <img title="HTML5" src="_img/html5.png" alt="HTML5 Logo" />
+          <img title="CSS3" src="_img/css3.png" alt="CSS3 Logo" />
+          <img title="JavaScript" src="_img/js.jpeg" alt="JavaScript Logo" />
+          <img title="ReactJS" src="_img/reactjs.png" alt="ReactJS Logo" />
+          <img title="Angular" src="_img/angular.png" alt="Angular Logo" />
+        </div>
     `;
-    pagesOp(0);
+  pagesOp(0);
 };
 
 // page Work
 const workPage = () => {
-    containerchild.innerHTML = `
+  containerchild.innerHTML = `
         <div class="works">
           <a href="#" onclick="gxnWorkPage()">
             <div class="project">
@@ -55,12 +63,12 @@ const workPage = () => {
             <p>Ver mais</p>
           </div>
         </div>
-    `
-    pagesOp(1);
-}
+    `;
+  pagesOp(1);
+};
 
 const contactPage = () => {
-    containerchild.innerHTML = `
+  containerchild.innerHTML = `
         <div class="contact">
           <div>
             <a href="#" onclick="copiarEmail()" style="text-decoration: none;">
@@ -119,9 +127,9 @@ const contactPage = () => {
             </a>
           </div>
         </div>
-    `
-    pagesOp(2);
-}
+    `;
+  pagesOp(2);
+};
 
 const copiarEmail = () => {
   navigator.clipboard.writeText("contato@nunesdotpy.com");

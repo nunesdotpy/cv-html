@@ -162,3 +162,12 @@ li {
 .back-arrow svg:hover {
     color: tomato;
 }
+
+.stack {
+    display: flex;
+}
+
+.stack img {
+    margin: auto;
+    height: 25px;
+}
