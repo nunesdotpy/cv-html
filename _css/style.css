@@ -32,7 +32,7 @@ a:hover {
 
 .line {
     border: 1px solid white;
-    width: 70%;
+    width: 80%;
     margin: auto;
     margin-top: 0px;
 }
@@ -178,4 +178,29 @@ li {
 .stack img {
     margin: auto;
     height: 25px;
+}
+
+@media (min-width: 1024px) {
+    .container {
+        width: 1200px
+    }
+
+    .container-child {
+        padding: 0px 300px 0px 300px;
+    }
+
+    .stack {
+        padding: 0px 120px 0px 120px;
+    }
+
+    .project {
+        margin: 5px;
+        width: 500px;
+        height: 350px;
+    }
+
+    .container-works {
+        display: flex;
+        justify-content: center;
+    }
 }

@@ -32,42 +32,46 @@ const homePage = () => {
 const workPage = () => {
   containerchild.innerHTML = `
         <div class="works">
-          <a href="#" onclick="gxnWorkPage()">
-            <div class="project">
-              <div class="work-preview">
-                <img src="_img/work1.jpeg" alt="GxN Network" />
+          <div class="container-works">
+            <a href="#" onclick="gxnWorkPage()">
+              <div class="project">
+                <div class="work-preview">
+                  <img src="_img/work1.jpeg" alt="GxN Network" />
+                </div>
+                <h2>GxN Network</h2>
+                <p>Ver mais</p>
               </div>
-              <h2>GxN Network</h2>
-              <p>Ver mais</p>
-            </div>
-          </a>
-          <a href="#" onclick="bankingAppPage()">
-            <div class="project">
-              <div class="work-preview">
-                <img src="_img/work2.jpeg" alt="Banking App" />
+            </a>
+            <a href="#" onclick="bankingAppPage()">
+              <div class="project">
+                <div class="work-preview">
+                  <img src="_img/work2.jpeg" alt="Banking App" />
+                </div>
+                <h2>Banking App</h2>
+                <p>Ver mais</p>
               </div>
-              <h2>Banking App</h2>
-              <p>Ver mais</p>
-            </div>
-          </a>
-          <a href="#" onclick="unidevPage()">
-            <div class="project">
-              <div class="work-preview">
-                <img src="_img/work3.jpeg" alt="UniDev" />
+            </a>
+          </div>
+          <div class="container-works">
+            <a href="#" onclick="unidevPage()">
+              <div class="project">
+                <div class="work-preview">
+                  <img src="_img/work3.jpeg" alt="UniDev" />
+                </div>
+                <h2>UniDev</h2>
+                <p>Ver mais</p>
               </div>
-              <h2>UniDev</h2>
-              <p>Ver mais</p>
-            </div>
-          </a>
-          <a href="#" onclick="cvPage()">
-            <div class="project">
-              <div class="work-preview">
-                <img src="_img/work4.jpeg" alt="Curriculo Online" />
+            </a>
+            <a href="#" onclick="cvPage()">
+              <div class="project">
+                <div class="work-preview">
+                  <img src="_img/work4.jpeg" alt="Curriculo Online" />
+                </div>
+                <h2>Curriculo Online</h2>
+                <p>Ver mais</p>
               </div>
-              <h2>Curriculo Online</h2>
-              <p>Ver mais</p>
-            </div>
-          </a>
+            </a>
+          </div>
         </div>
     `;
   pagesOp(1);
