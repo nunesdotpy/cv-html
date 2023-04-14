@@ -41,27 +41,33 @@ const workPage = () => {
               <p>Ver mais</p>
             </div>
           </a>
-          <div class="project">
-            <div class="work-preview">
-              <img src="_img/work2.jpeg" alt="UniDev" />
+          <a href="#" onclick="bankingAppPage()">
+            <div class="project">
+              <div class="work-preview">
+                <img src="_img/work2.jpeg" alt="Banking App" />
+              </div>
+              <h2>Banking App</h2>
+              <p>Ver mais</p>
             </div>
-            <h2>UniDev</h2>
-            <p>Ver mais</p>
-          </div>
-          <div class="project">
-            <div class="work-preview">
-              <img src="_img/work3.jpeg" alt="Curriculo Online" />
+          </a>
+          <a href="#" onclick="unidevPage()">
+            <div class="project">
+              <div class="work-preview">
+                <img src="_img/work3.jpeg" alt="UniDev" />
+              </div>
+              <h2>UniDev</h2>
+              <p>Ver mais</p>
             </div>
-            <h2>Curriculo Online</h2>
-            <p>Ver mais</p>
-          </div>
-          <div class="project">
-            <div class="work-preview">
-              <img src="_img/work4.jpeg" alt="DogMind" />
+          </a>
+          <a href="#" onclick="cvPage()">
+            <div class="project">
+              <div class="work-preview">
+                <img src="_img/work4.jpeg" alt="Curriculo Online" />
+              </div>
+              <h2>Curriculo Online</h2>
+              <p>Ver mais</p>
             </div>
-            <h2>Blog DogMind</h2>
-            <p>Ver mais</p>
-          </div>
+          </a>
         </div>
     `;
   pagesOp(1);
