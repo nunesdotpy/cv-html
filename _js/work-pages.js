@@ -40,7 +40,7 @@ const bankingAppPage = () => {
           primeiramente para ser utilizado por dispositivos mobile.
         </p>
         <div class="project-link">
-          <a href="https://nunesdotpy.com/banking-app" target="_blank"
+          <a href="/banking-app" target="_blank"
             >Visite o projeto
             <svg
               xmlns="http://www.w3.org/2000/svg"
@@ -90,7 +90,7 @@ const unidevPage = () => {
         <h2>UniDev</h2>
         <p>Site para ajudar iniciantes em Desenvolvimento Web a quebrar paradigmas e ajudar nos primeiros projetos.</p>
         <div class="project-link">
-          <a href="https://nunesdotpy.com/dev/" target="_blank">Visite o projeto
+          <a href="/dev/" target="_blank">Visite o projeto
             <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-box-arrow-up-right" viewBox="0 0 16 16">
               <path fill-rule="evenodd" d="M8.636 3.5a.5.5 0 0 0-.5-.5H1.5A1.5 1.5 0 0 0 0 4.5v10A1.5 1.5 0 0 0 1.5 16h10a1.5 1.5 0 0 0 1.5-1.5V7.864a.5.5 0 0 0-1 0V14.5a.5.5 0 0 1-.5.5h-10a.5.5 0 0 1-.5-.5v-10a.5.5 0 0 1 .5-.5h6.636a.5.5 0 0 0 .5-.5z"/>
               <path fill-rule="evenodd" d="M16 .5a.5.5 0 0 0-.5-.5h-5a.5.5 0 0 0 0 1h3.793L6.146 9.146a.5.5 0 1 0 .708.708L15 1.707V5.5a.5.5 0 0 0 1 0v-5z"/>
@@ -119,7 +119,7 @@ const cvPage = () => {
         <p>Feito com apenas HTML, CSS e Javascript, basicamente é o meu curriculo com funções adicionadas através de Javascript, como por exemplo a opção de traduzir toda a página para o inglês.
         </p>
         <div class="project-link">
-          <a href="https://nunesdotpy.com/dev/" target="_blank">Visite o projeto
+          <a href="/cv/" target="_blank">Visite o projeto
             <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-box-arrow-up-right" viewBox="0 0 16 16">
               <path fill-rule="evenodd" d="M8.636 3.5a.5.5 0 0 0-.5-.5H1.5A1.5 1.5 0 0 0 0 4.5v10A1.5 1.5 0 0 0 1.5 16h10a1.5 1.5 0 0 0 1.5-1.5V7.864a.5.5 0 0 0-1 0V14.5a.5.5 0 0 1-.5.5h-10a.5.5 0 0 1-.5-.5v-10a.5.5 0 0 1 .5-.5h6.636a.5.5 0 0 0 .5-.5z"/>
               <path fill-rule="evenodd" d="M16 .5a.5.5 0 0 0-.5-.5h-5a.5.5 0 0 0 0 1h3.793L6.146 9.146a.5.5 0 1 0 .708.708L15 1.707V5.5a.5.5 0 0 0 1 0v-5z"/>
