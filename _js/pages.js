@@ -1,6 +1,7 @@
 // definando const uteis
 const container = document.querySelector(".container");
 const containerchild = document.querySelector(".container-child");
+const projectPage = document.querySelector(".project");
 
 // criando a HOME
 const homePage = () => {
@@ -143,6 +144,7 @@ const contactPage = () => {
 
 const copiarEmail = () => {
   navigator.clipboard.writeText("contato@nunesdotpy.com");
+  alert("E-Mail copiado!")
 };
 
 homePage();

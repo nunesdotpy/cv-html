@@ -2,7 +2,7 @@
 const gxnWorkPage = () => {
   containerchild.innerHTML = `
     <div class="works">
-        <div class="project">
+        <div class="project-page">
             <div class="work-preview">
               <img src="_img/work1.jpeg" alt="GxN Network" />
             </div>
@@ -30,7 +30,7 @@ const gxnWorkPage = () => {
 const bankingAppPage = () => {
   containerchild.innerHTML = `
     <div class="works">
-      <div class="project">
+      <div class="project-page">
         <div class="work-preview">
           <img src="_img/work2.jpeg" alt="Banking App" />
         </div>
@@ -75,15 +75,15 @@ const bankingAppPage = () => {
           </svg>
         </div>
       </div>
-    </div>
-  `;
+    </div> 
+  `
 };
 
 // Pagina da UniDev
 const unidevPage = () => {
   containerchild.innerHTML = `
     <div class="works">
-      <div class="project">
+      <div class="project-page">
         <div class="work-preview">
           <img src="_img/work3.jpeg" alt="UniDev" />
         </div>
@@ -111,7 +111,7 @@ const unidevPage = () => {
 const cvPage = () => {
   containerchild.innerHTML = `
     <div class="works">
-      <div class="project">
+      <div class="project-page">
         <div class="work-preview">
           <img src="_img/work4.jpeg" alt="Currículo Online" />
         </div>

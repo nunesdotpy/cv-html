@@ -41,7 +41,7 @@ a:hover {
     background-color: #090B11;
     margin: auto;
     width: 350px;
-    min-height: 860px;
+    min-height: 900px;
     border-radius: 10px;
     box-shadow: 0px 0px 10px #090B11;
     padding: 10px;
@@ -63,10 +63,19 @@ li {
     width: 36px;
     height: 36px;
     opacity: 0.5;
+    margin: auto;
 }
 
-.navbar svg:hover {
-    opacity: 0.75;
+.navbar-item{
+    display: flex;
+    justify-content: center;
+    border-radius: 50%;
+    width: 50px;
+    height: 50px;
+}
+
+.navbar-item:hover {
+    box-shadow: 0px 0px 5px whitesmoke;
 }
 
 .github-photo {
@@ -107,14 +116,14 @@ li {
     text-align: center;
 }
 
-.project {
+.project, .project-page {
     margin: 10px;
     border: 1px solid #161621;
     border-radius: 5px;
     box-shadow: 0px 0px 5px #161621;
 }
 
-.project:hover {
+.project:hover, .project-page {
     box-shadow: 0px 0px 10px #2d2d42;
 }
 
@@ -199,8 +208,16 @@ li {
         height: 350px;
     }
 
+    .project-page {
+        height: 710px;
+    }
+
     .container-works {
         display: flex;
         justify-content: center;
+    }
+
+    .back-arrow {
+        margin-top: 200px;
     }
 }
