@@ -1,133 +1,223 @@
 body {
-    background-color: grey;
+    background-color: #161621;
+    
 }
 
-.flags {
-    display: flex;
-    justify-content: flex-end;
-    max-width: 800px;
-    margin: auto;
-}
-
-.idiomas img {
-    height: 20px;
-    opacity: 0.7;
-    box-shadow: 2px 3px 4px black;
-    margin-right: 5px;
-}
-
-.idiomas img:hover {
-    opacity: 1;
-}
-
-main {
-    border-radius: 25px;
-    max-width: 800px;
-    margin: auto;
-    margin-top: 10px;
-    margin-bottom: 10px;
-    padding: 48px;
-    background-color: white;
-    box-shadow: 0px 0px 20px black;
-}
-
-.info{
-    display: flex;
-    justify-content: space-between;
-
-}
-
-.contatos {
-    width: 700px;
-}
-
-.contatos p {
-    align-items: center;
-    padding: 8px;
-}
-
-.contatos a {
-    color: black;
-}
-
-.contatos img {
-    padding-top: 10px;
-    float: left;
-}
-
-.photo img{
-    height: 250px;
-    border-radius: 25px;
-}
-
-.desc h3 {
-    font-size: 20px;
-    padding-top: 20px;
+h1 {
+    margin: 25px;
+    text-align: center;
+    color: white;
 }
 
 h2 {
-    font-size: 20px;
-    margin-left: 24px;
-    margin-bottom: 25px;
-}
-
-h2,
-h3,
-h4 {
-    font-weight: normal;
-}
-
-.desc p {
-    font-size: 14px;
-}
-
-hr {
-    margin-top: 25px;
-    margin-bottom: 25px;
-}
-
-.code {
-    font-size: 14px;
-    margin: auto;
+    margin: 0px;
     text-align: center;
+    color: white;
+}
+
+p {
+    margin: 25px;
+    text-align: justify;
+    color: white;
 }
 
 a {
-    color: blue;
+    color: steelblue;
+    text-decoration: none;
 }
 
-footer {
-    height: 0px;
+a:hover {
+    color: skyblue;
 }
 
-@media (max-width: 555px) {
-    body{
-        overflow-x: hidden;
+.line {
+    border: 1px solid white;
+    width: 80%;
+    margin: auto;
+    margin-top: 0px;
+}
+
+.container {
+    background-color: #090B11;
+    margin: auto;
+    width: 350px;
+    min-height: 900px;
+    border-radius: 10px;
+    box-shadow: 0px 0px 10px #090B11;
+    padding: 10px;
+    padding-top: 0px;
+}
+
+.container ul {
+    padding: 25px;
+    display: flex;
+    justify-content: space-around;
+}
+
+li {
+    list-style: none;
+}
+
+.navbar svg {
+    color: white;
+    width: 36px;
+    height: 36px;
+    opacity: 0.5;
+    margin: auto;
+}
+
+.navbar-item{
+    display: flex;
+    justify-content: center;
+    border-radius: 50%;
+    width: 50px;
+    height: 50px;
+}
+
+.navbar-item:hover {
+    box-shadow: 0px 0px 5px whitesmoke;
+}
+
+.github-photo {
+    display: flex;
+    justify-content: center;
+}
+
+.github-photo img {
+    width: 250px;
+    border-radius: 50%;
+}
+
+.resume {
+    display: flex;
+    justify-content: center;
+    margin-top: 15%;
+}
+
+.works {
+    margin-top: 25px;
+}
+
+.works img {
+    width: 300px;
+    margin: 25px;
+}
+
+.work-preview {
+    display: flex;
+    justify-content: center;
+}
+
+.works h2 {
+    margin-bottom: 25px;
+}
+
+.works p {
+    text-align: center;
+}
+
+.project, .project-page {
+    margin: 10px;
+    border: 1px solid #161621;
+    border-radius: 5px;
+    box-shadow: 0px 0px 5px #161621;
+}
+
+.project:hover, .project-page {
+    box-shadow: 0px 0px 10px #2d2d42;
+}
+
+.contact {
+    display: flex;
+    justify-content: center;
+}
+
+.contact svg {
+    opacity: 1;
+    width: 125px;
+    height: 125px;
+    margin: 50px;
+    margin-bottom: 0px;
+    color: white;
+}
+
+.contact svg:hover {
+    color: steelblue;
+}
+
+.contact p {
+    margin: 0px;
+    text-align: center;
+}
+
+.project-link {
+    display: flex;
+    justify-content: center;
+}
+
+.project a{
+    text-align: center;
+    margin: 50px;
+}
+
+.project p{
+    height: 130px;
+}
+
+.back-arrow {
+    display: flex;
+    justify-content: center;
+    margin: 50px;
+}
+
+.back-arrow svg {
+    width: 50px;
+    height: 50px;
+    color: white;
+}
+
+.back-arrow svg:hover {
+    color: tomato;
+}
+
+.stack {
+    display: flex;
+}
+
+.stack img {
+    margin: auto;
+    height: 25px;
+}
+
+@media (min-width: 1024px) {
+    .container {
+        width: 1200px
     }
 
-    .flags img{
-        height: 2em;
+    .container-child {
+        padding: 0px 300px 0px 300px;
     }
 
-    .info {
-        display: block;
-
+    .stack {
+        padding: 0px 120px 0px 120px;
     }
 
-    .contatos{
-        margin: 15px;
+    .project {
+        margin: 5px;
+        width: 500px;
+        height: 350px;
     }
 
-    .contatos img{
-        padding-top: 0px;
+    .project-page {
+        height: 710px;
     }
 
-    .photo{
-        margin: 15px;
-        align-items: center;
+    .container-works {
+        display: flex;
+        justify-content: center;
     }
 
-    .photo img{
-        height: 300px;
+    .back-arrow {
+        margin-top: 200px;
     }
 }
