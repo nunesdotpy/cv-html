@@ -32,48 +32,68 @@ const homePage = () => {
 // page Work
 const workPage = () => {
   containerchild.innerHTML = `
-        <div class="works">
-          <div class="container-works">
-            <a href="#" onclick="gxnWorkPage()">
-              <div class="project">
-                <div class="work-preview">
-                  <img src="_img/work1.jpeg" alt="GxN Network" />
-                </div>
-                <h2>GxN Network</h2>
-                <p>Ver mais</p>
-              </div>
-            </a>
-            <a href="#" onclick="bankingAppPage()">
-              <div class="project">
-                <div class="work-preview">
-                  <img src="_img/work2.jpeg" alt="Banking App" />
-                </div>
-                <h2>Banking App</h2>
-                <p>Ver mais</p>
-              </div>
-            </a>
+  <div class="works">
+  <div class="container-works">
+      <a href="#" onclick="canilSaoSeverinoPage()">
+        <div class="project">
+          <div class="work-preview">
+            <img src="_img/canilsaoseverino.jpeg" alt="Canil São Severino" />
           </div>
-          <div class="container-works">
-            <a href="#" onclick="unidevPage()">
-              <div class="project">
-                <div class="work-preview">
-                  <img src="_img/work3.jpeg" alt="UniDev" />
-                </div>
-                <h2>UniDev</h2>
-                <p>Ver mais</p>
-              </div>
-            </a>
-            <a href="#" onclick="cvPage()">
-              <div class="project">
-                <div class="work-preview">
-                  <img src="_img/work4.jpeg" alt="Curriculo Online" />
-                </div>
-                <h2>Curriculo Online</h2>
-                <p>Ver mais</p>
-              </div>
-            </a>
-          </div>
+          <h2>Canil São Severino</h2>
+          <p>Ver mais</p>
         </div>
+      </a>
+    </div>
+    <a href="#" onclick="canilRecantoDachshund()">
+        <div class="project">
+          <div class="work-preview">
+            <img src="_img/recantodachshund.jpeg" alt="Recanto de Aldeia Dachshund" />
+          </div>
+          <h2>Recanto de Aldeia Dachshund</h2>
+          <p>Ver mais</p>
+        </div>
+      </a>
+  <div class="container-works">
+    <a href="#" onclick="gxnWorkPage()">
+      <div class="project">
+        <div class="work-preview">
+          <img src="_img/work1.jpeg" alt="GxN Network" />
+        </div>
+        <h2>GxN Network</h2>
+        <p>Ver mais</p>
+      </div>
+    </a>
+    <a href="#" onclick="bankingAppPage()">
+      <div class="project">
+        <div class="work-preview">
+          <img src="_img/work2.jpeg" alt="Banking App" />
+        </div>
+        <h2>Banking App</h2>
+        <p>Ver mais</p>
+      </div>
+    </a>
+  </div>
+  <div class="container-works">
+    <a href="#" onclick="unidevPage()">
+      <div class="project">
+        <div class="work-preview">
+          <img src="_img/work3.jpeg" alt="UniDev" />
+        </div>
+        <h2>UniDev</h2>
+        <p>Ver mais</p>
+      </div>
+    </a>
+    <a href="#" onclick="cvPage()">
+      <div class="project">
+        <div class="work-preview">
+          <img src="_img/work4.jpeg" alt="Curriculo Online" />
+        </div>
+        <h2>Curriculo Online</h2>
+        <p>Ver mais</p>
+      </div>
+    </a>
+  </div>
+</div>
     `;
   pagesOp(1);
 };
