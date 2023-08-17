@@ -43,7 +43,6 @@ const workPage = () => {
           <p>Ver mais</p>
         </div>
       </a>
-    </div>
     <a href="#" onclick="canilRecantoDachshund()">
         <div class="project">
           <div class="work-preview">
@@ -53,6 +52,7 @@ const workPage = () => {
           <p>Ver mais</p>
         </div>
       </a>
+    </div>
   <div class="container-works">
     <a href="#" onclick="gxnWorkPage()">
       <div class="project">
