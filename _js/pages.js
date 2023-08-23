@@ -176,3 +176,4 @@ const copiarEmail = () => {
 };
 
 homePage();
+pagesOp(0)

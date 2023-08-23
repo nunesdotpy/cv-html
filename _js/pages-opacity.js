@@ -15,6 +15,7 @@ const pagesOp = (page) => {
             homeSvg.style.opacity = 0.5;
             workSvp.style.opacity = 1;
             contactSvp.style.opacity = 0.5;
+            document.getElementById("container").style.boxShadow = "0px 0px 10px #2d2d42";
             break;
         case 2:
             homeSvg.style.opacity = 0.5;

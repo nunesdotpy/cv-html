@@ -80,6 +80,7 @@ a:hover {
     box-shadow: 0px 0px 10px #159a5e;
     padding: 10px;
     padding-top: 0px;
+    transition: 500ms  linear;
 }
 
 .container ul {
@@ -96,8 +97,11 @@ li {
     color: white;
     width: 36px;
     height: 36px;
-    opacity: 0.5;
     margin: auto;
+}
+
+#github {
+    opacity: 0.5;
 }
 
 .navbar-item{
