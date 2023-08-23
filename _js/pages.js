@@ -6,12 +6,12 @@ const projectPage = document.querySelector(".project");
 // criando a HOME
 const homePage = () => {
   containerchild.innerHTML = `
-  <h1>nunesdotpy</h1>
+  <h1>nunes.sh</h1>
   <div class="github-photo">
     <img src="_img/github-photo.jpeg" alt="nunesdotpy photo" />
   </div>
   <div class="resume">
-    <p>
+    <p id="about-me">
       me chamo João Nunes, sou um desenvolvedor web de Recife - PE e estou a
       procura de novos desafios. Venho aqui mostrar um pouco das minhas
       experiências e conhecimento :)
