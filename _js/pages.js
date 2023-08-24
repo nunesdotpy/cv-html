@@ -174,6 +174,3 @@ const copiarEmail = () => {
   navigator.clipboard.writeText("contato@nunesdotpy.com");
   alert("E-Mail copiado!");
 };
-
-homePage();
-pagesOp(0)
