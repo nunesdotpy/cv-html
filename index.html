@@ -80,6 +80,26 @@
         <button>VEJA MEUS ARTIGOS</button>
       </div>
     </div>
+    <div hidden class="work">
+      <!-- Rederizando os trabalhos aqui atraves do works.json -->
+    </div>
     <script src="js/index.js"></script>
+    <script>
+      fetch("/js/works.json").then((response) => {
+        response.json().then((dados) => {
+          const work = document.querySelector(".work");
+
+          dados.projetos.forEach((projeto) => {
+            work.innerHTML += `
+              <div class="word_card">
+                <img src="${projeto.imagem}" width="300" height="170" alt="${projeto.imagemAlt}">
+                <h2>${projeto.titulo}</h2>
+                <p class="verMais">Ver Mais <i class="bi bi-arrow-right-square-fill"></i></p>
+              </div>
+            `;
+          });
+        })
+      })
+    </script>
   </body>
 </html>

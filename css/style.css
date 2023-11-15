@@ -84,3 +84,37 @@ nav hr {
 .techstack img {
     border-radius: 0;
 }
+
+.word_card {
+    margin: auto;
+    transition: linear 0.2s;
+    width: 300px;
+    min-height: 250px;
+    background-color: var(--2nd-color);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding: 25px;
+    box-shadow: 0px 0px 2px var(--shade-color);
+    cursor: pointer;
+    margin-top: 15px;
+    border-radius: 10px;
+}
+
+.word_card:hover {
+    box-shadow: 0px 0px 10px var(--accent-color);
+    transition: linear 0.2s;
+}
+
+.word_card h2 {
+    text-align: center;
+}
+
+.verMais {
+    font-size: large;
+}
+
+.verMais:hover {
+    color: var(--accent-color);
+}
