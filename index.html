@@ -1,23 +1,85 @@
 <!DOCTYPE html>
 <html lang="pt-br">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="_css/style.css">
-    <title>Document</title>
-</head>
-<body>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.1/font/bootstrap-icons.css"
+    />
+
+    <link rel="stylesheet" href="css/style.css" />
+
+    <title>João Nunes - nunes.sh</title>
+  </head>
+  <body>
     <nav>
-        <ul>
-            <li><a href="/home">Home</a></li>
-            <li><a href="/trabalhos">Trabalhos</a></li>
-            <li><a href="/contato">Contato</a></li>
-            <li>GitHub</li>
-        </ul>
+      <ul>
+        <li>
+          <i id="home" class="bi bi-house-fill" onclick="Navbar('home')"></i>
+        </li>
+        <li>
+          <i id="work" class="bi bi-briefcase-fill" onclick="Navbar('work')"></i>
+        </li>
+        <li>
+          <i id="contact" class="bi bi-envelope-fill" onclick="Navbar('contact')"></i>
+        </li>
+        <li>
+          <a href="https://github.com/nunesdotpy" target="_blank"><i class="bi bi-github"></i></a>
+        </li>
+      </ul>
+      <hr />
     </nav>
-    <div id="main-page">
-        <div class="container"></div>
+    <div class="home">
+      <h1>nunes.sh</h1>
+      <figure>
+        <img
+          src="assets/github-photo.jpeg"
+          width="250"
+          height="250"
+          alt="João Nunes Photo"
+        />
+      </figure>
+      <p>
+        me chamo João Nunes, sou um desenvolvedor web de Recife - PE e estou a
+        procura de novos desafios. Venho aqui mostrar um pouco das minhas
+        experiências e conhecimento :)
+      </p>
+      <div class="techstack">
+        <ul>
+          <p>Tech Stack:</p>
+          <li>
+            <img src="assets/html5.png" width="22" height="25" alt="HTML5" />
+          </li>
+          <li>
+            <img src="assets/css3.png" width="22" height="25" alt="CSS3" />
+          </li>
+          <li>
+            <img src="assets/js.jpeg" width="25" height="25" alt="JavaScript" />
+          </li>
+          <li>
+            <img
+              src="assets/reactjs.png"
+              width="28"
+              height="25"
+              alt="ReactJS"
+            />
+          </li>
+          <li>
+            <img
+              src="assets/angular.png"
+              width="23.5"
+              height="25"
+              alt="Angular"
+            />
+          </li>
+        </ul>
+      </div>
+      <div style="display: flex; justify-content: center">
+        <button>VEJA MEUS ARTIGOS</button>
+      </div>
     </div>
-    <script src="_js/router.js" defer></script>
-</body>
+    <script src="js/index.js"></script>
+  </body>
 </html>

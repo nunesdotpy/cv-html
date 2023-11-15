@@ -1,0 +1,86 @@
+:root {
+    --1st-color: #090B11;
+    --2nd-color: #161621;
+    --content-color: #FFFFFF;
+    --shade-color: #848588;
+    --accent-color: #159A5E;
+}
+
+body {
+    background-color: var(--1st-color);
+    color: var(--content-color);
+}
+
+ul {
+    padding: 0;
+}
+nav ul {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+nav li {
+    list-style: none;
+    margin: 0 10px;
+}
+
+nav i {
+    color: var(--shade-color);
+    font-size: 40px;
+    margin: 10px;
+    cursor: pointer;
+}
+
+nav hr {
+    color: var(--content-color);
+    width: 85%;
+}
+
+.home h1 {
+    text-align: center;
+    color: var(--accent-color);
+}
+
+.home p {
+    text-align: justify;
+    padding: 10px;
+    font-size: larger;
+}
+
+.home img {
+    border-radius: 50%;
+}
+
+.home ul, .home li {
+    display: flex;
+    align-items: center;
+}
+
+.home li {
+    margin: 10px;
+}
+
+.home button {
+    background-color: var(--accent-color);
+    color: var(--content-color);
+    border: none;
+    border-radius: 5px;
+    padding: 10px;
+    font-size: larger;
+    cursor: pointer;
+}
+
+.home button:hover {
+    background-color: var(--2nd-color);
+}
+
+.techstack {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.techstack img {
+    border-radius: 0;
+}
