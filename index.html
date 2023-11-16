@@ -20,68 +20,107 @@
           <i id="home" class="bi bi-house-fill" onclick="Navbar('home')"></i>
         </li>
         <li>
-          <i id="work" class="bi bi-briefcase-fill" onclick="Navbar('work')"></i>
+          <i
+            id="work"
+            class="bi bi-briefcase-fill"
+            onclick="Navbar('work')"
+          ></i>
         </li>
         <li>
-          <i id="contact" class="bi bi-envelope-fill" onclick="Navbar('contact')"></i>
+          <i
+            id="contact"
+            class="bi bi-envelope-fill"
+            onclick="Navbar('contact')"
+          ></i>
         </li>
         <li>
-          <a href="https://github.com/nunesdotpy" target="_blank"><i class="bi bi-github"></i></a>
+          <a href="https://github.com/nunesdotpy" target="_blank"
+            ><i class="bi bi-github"></i
+          ></a>
         </li>
       </ul>
       <hr />
     </nav>
-    <div class="home">
-      <h1>nunes.sh</h1>
-      <figure>
-        <img
-          src="assets/github-photo.jpeg"
-          width="250"
-          height="250"
-          alt="João Nunes Photo"
-        />
-      </figure>
-      <p>
-        me chamo João Nunes, sou um desenvolvedor web de Recife - PE e estou a
-        procura de novos desafios. Venho aqui mostrar um pouco das minhas
-        experiências e conhecimento :)
-      </p>
-      <div class="techstack">
-        <ul>
-          <p>Tech Stack:</p>
-          <li>
-            <img src="assets/html5.png" width="22" height="25" alt="HTML5" />
-          </li>
-          <li>
-            <img src="assets/css3.png" width="22" height="25" alt="CSS3" />
-          </li>
-          <li>
-            <img src="assets/js.jpeg" width="25" height="25" alt="JavaScript" />
-          </li>
-          <li>
-            <img
-              src="assets/reactjs.png"
-              width="28"
-              height="25"
-              alt="ReactJS"
-            />
-          </li>
-          <li>
-            <img
-              src="assets/angular.png"
-              width="23.5"
-              height="25"
-              alt="Angular"
-            />
-          </li>
-        </ul>
-      </div>
-      <div style="display: flex; justify-content: center">
-        <button>VEJA MEUS ARTIGOS</button>
+    <div hidden class="home">
+      <div class="home-content">
+        <h1>nunes.sh</h1>
+        <figure>
+          <img
+            src="assets/github-photo.jpeg"
+            width="250"
+            height="250"
+            alt="João Nunes Photo"
+          />
+        </figure>
+        <p>
+          me chamo João Nunes, sou um desenvolvedor web de Recife - PE e estou a
+          procura de novos desafios. Venho aqui mostrar um pouco das minhas
+          experiências e conhecimento :)
+        </p>
+        <div class="techstack">
+          <ul>
+            <p>Tech Stack:</p>
+            <li>
+              <img src="assets/html5.png" width="22" height="25" alt="HTML5" />
+            </li>
+            <li>
+              <img src="assets/css3.png" width="22" height="25" alt="CSS3" />
+            </li>
+            <li>
+              <img
+                src="assets/js.jpeg"
+                width="25"
+                height="25"
+                alt="JavaScript"
+              />
+            </li>
+            <li>
+              <img
+                src="assets/reactjs.png"
+                width="28"
+                height="25"
+                alt="ReactJS"
+              />
+            </li>
+            <li>
+              <img
+                src="assets/angular.png"
+                width="23.5"
+                height="25"
+                alt="Angular"
+              />
+            </li>
+          </ul>
+        </div>
+        <div style="display: flex; justify-content: center">
+          <button>VEJA MEUS ARTIGOS</button>
+        </div>
       </div>
     </div>
     <div hidden class="work">
+      <h2>Trabalhos</h2>
       <!-- Rederizando os trabalhos aqui atraves do works.json -->
+    </div>
+    <div class="contact">
+      <h2>Contato</h2>
+      <ul>
+        <li>
+          <i class="bi bi-envelope-at" onclick="copyEmail()"></i>
+          <p><strong id="email">contato@nunes.sh</strong><br>Clique para copiar</p>
+        </li>
+        <li>
+          <a href="https://twitter.com/nunesdotsh" target="_blank">
+            <i class="bi bi-twitter"></i>
+            <p>@nunesdotsh</p>
+          </a>
+        </li>
+        <li>
+          <a href="https://www.linkedin.com/in/joao-nunes-1b49791bb/" target="_blank">
+            <i class="bi bi-linkedin"></i>
+            <p>João Nunes</p>
+          </a>
+        </li>
+      </ul>
     </div>
     <script src="js/index.js"></script>
     <script>
@@ -98,8 +137,14 @@
               </div>
             `;
           });
-        })
-      })
+        });
+      });
+
+      const copyEmail = () => {
+        const email = document.getElementById("email");
+        navigator.clipboard.writeText(email.textContent)
+        alert("Email copiado com sucesso!")
+      }
     </script>
   </body>
 </html>

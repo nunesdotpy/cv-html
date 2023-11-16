@@ -4,7 +4,7 @@ const Navbar = (pagina) => {
     document.getElementById('work').style.color = "#848588";
     document.querySelector('.work').hidden = true;
     document.getElementById('contact').style.color = "#848588";
-
+    document.querySelector('.contact').hidden = true;
 
     switch (pagina) {
         case 'home':
@@ -17,8 +17,9 @@ const Navbar = (pagina) => {
             break;
         case 'contact':
             document.getElementById('contact').style.color = "white";
+            document.querySelector('.contact').hidden = false;
             break;
     }
 }
 
-Navbar('home')
+Navbar('contact')
