@@ -1,24 +1,28 @@
 {
   "projetos": [
     {
+      "id": 1,
       "titulo": "Canil São Severino",
       "imagem": "/assets/canilsaoseverino.jpeg",
       "imagemAlt": "Canil São Severino",
       "descricao": "Projeto vendido para um canil de Pastor Belga Malinois, o propietário já vendia seus exemplares para o nordeste brasileiro inteiro e desejava expandir seus horizontes. Feito em Wordpress, usando HTML5 e CSS3 para detalhes e ajustes necessários"
     },
     {
+      "id": 2,
       "titulo": "Recanto de Aldeia Dachshund",
       "imagem": "/assets/recantodachshund.jpeg",
       "imagemAlt": "Recanto de Aldeia Dachshund",
       "descricao": "Site desenvolvido como proposta para o Canil Recanto de Aldeia Dachshund. Feito em Wordpress, usando HTML5 e CSS3 para detalhes e ajustes necessários"
     },
     {
+      "id": 3,
       "titulo": "Banking App",
       "imagem": "/assets/work2.jpeg",
       "imagemAlt": "Banking App",
       "descricao": "Site Front-End para bancos online. Responsivo e feito primeiramente para ser utilizado por dispositivos mobile. "
     },
     {
+      "id": 4,
       "titulo": "Psicólgo Abdias Brennichi",
       "imagem": "/assets/psicologo-abdias.jpeg",
       "imagemAlt": "Psicólgo Abdias Brennichi",

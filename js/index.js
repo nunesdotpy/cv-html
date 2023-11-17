@@ -22,4 +22,27 @@ const Navbar = (pagina) => {
     }
 }
 
-Navbar('contact')
+fetch("/js/works.json").then((response) => {
+    response.json().then((dados) => {
+      const work = document.querySelector(".work");
+
+      dados.projetos.forEach((projeto) => {
+        work.innerHTML += `
+          <div class="work_card" id="work_${projeto.id}" onclick="verMais(${projeto.id})">
+            <img src="${projeto.imagem}" width="300" height="170" alt="${projeto.imagemAlt}">
+            <h2>${projeto.titulo}</h2>
+            <p id="verMais_${projeto.id} class="verMais">Ver Mais <i class="bi bi-arrow-right-square-fill"></i></p>
+            <p class="descricao" hidden id="${projeto.id}">${projeto.descricao}</p>
+          </div>
+        `;
+      });
+    });
+  });
+
+  const verMais = (projeto) => {
+    document.getElementById(projeto).style.display = "block";
+    document.getElementById(`work_${projeto}`).style.height = "460px";
+    document.getElementById(`verMais_${projeto}`).style.display = "none";
+  }
+
+Navbar('home')

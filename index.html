@@ -93,7 +93,7 @@
           </ul>
         </div>
         <div style="display: flex; justify-content: center">
-          <button>VEJA MEUS ARTIGOS</button>
+          <button title="Indisponível" style="cursor: not-allowed;">VEJA MEUS ARTIGOS</button>
         </div>
       </div>
     </div>
@@ -105,7 +105,7 @@
       <h2>Contato</h2>
       <ul>
         <li>
-          <i class="bi bi-envelope-at" onclick="copyEmail()"></i>
+          <i style="cursor: copy;" class="bi bi-envelope-at" onclick="copyEmail()"></i>
           <p><strong id="email">contato@nunes.sh</strong><br>Clique para copiar</p>
         </li>
         <li>
@@ -124,21 +124,7 @@
     </div>
     <script src="js/index.js"></script>
     <script>
-      fetch("/js/works.json").then((response) => {
-        response.json().then((dados) => {
-          const work = document.querySelector(".work");
 
-          dados.projetos.forEach((projeto) => {
-            work.innerHTML += `
-              <div class="word_card">
-                <img src="${projeto.imagem}" width="300" height="170" alt="${projeto.imagemAlt}">
-                <h2>${projeto.titulo}</h2>
-                <p class="verMais">Ver Mais <i class="bi bi-arrow-right-square-fill"></i></p>
-              </div>
-            `;
-          });
-        });
-      });
 
       const copyEmail = () => {
         const email = document.getElementById("email");

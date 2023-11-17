@@ -36,6 +36,11 @@ nav i {
   cursor: pointer;
 }
 
+nav li:hover {
+  transform: scale(1.2);
+  transition: 100ms linear;
+}
+
 nav hr {
   color: var(--content-color);
   width: 85%;
@@ -45,7 +50,13 @@ h2 {
   text-align: center;
 }
 
-.home .home-content, .contact ul {
+.home {
+  margin: auto;
+  max-width: 600px;
+}
+
+.home .home-content,
+.contact ul {
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -100,29 +111,29 @@ h2 {
   border-radius: 0;
 }
 
-.word_card {
+.work_card {
   margin: auto;
-  transition: linear 0.2s;
+  transition: all ease 0.2s;
   width: 300px;
-  min-height: 250px;
+  height: 350px;
   background-color: var(--2nd-color);
   display: flex;
   justify-content: center;
   align-items: center;
   flex-direction: column;
-  padding: 25px;
   box-shadow: 0px 0px 2px var(--shade-color);
   cursor: pointer;
+  padding: 25px;
   margin-top: 15px;
   border-radius: 10px;
 }
 
-.word_card:hover {
+.work_card:hover {
   box-shadow: 0px 0px 10px var(--accent-color);
   transition: linear 0.2s;
 }
 
-.word_card h2 {
+.work_card h2 {
   text-align: center;
 }
 
@@ -135,16 +146,16 @@ h2 {
 }
 
 .contact li {
-    list-style: none;
-    margin: 40px;
+  list-style: none;
+  margin: 40px;
 }
 
 .contact i {
-    font-size: 120px;
-    transition: linear 0.1s;
+  font-size: 120px;
+  transition: linear 0.1s;
 }
 
-.contact p{
+.contact p {
   text-align: center;
   margin: 0;
   padding: 0;
