@@ -114,6 +114,10 @@ h2 {
   border-radius: 0;
 }
 
+.works {
+  display: block;
+}
+
 .work_card {
   margin: auto;
   transition: all ease 0.2s;
@@ -177,4 +181,10 @@ h2 {
   cursor: pointer;
   scale: 1.1;
   color: var(--accent-color);
+}
+
+@media (min-width: 1440px) {
+  .works {
+    display: flex;
+  }
 }

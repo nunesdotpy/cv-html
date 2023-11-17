@@ -24,7 +24,7 @@ const Navbar = (pagina) => {
 
 fetch("/js/works.json").then((response) => {
   response.json().then((dados) => {
-    const work = document.querySelector(".work");
+    const work = document.querySelector(".works");
 
     dados.projetos.forEach((projeto) => {
       work.innerHTML += `
@@ -50,4 +50,4 @@ const verMais = (projeto) => {
   document.getElementById(`verMais_${projeto}`).style.display = "none";
 };
 
-Navbar("home");
+Navbar("work");
