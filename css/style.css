@@ -114,6 +114,11 @@ h2 {
   border-radius: 0;
 }
 
+.work {
+  max-width: 800px;
+  margin: auto;
+}
+
 .works {
   display: block;
 }
@@ -183,7 +188,7 @@ h2 {
   color: var(--accent-color);
 }
 
-@media (min-width: 1440px) {
+@media (min-width: 768px) {
   .works {
     display: flex;
   }
