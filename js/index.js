@@ -28,4 +28,4 @@ const verMais = (projeto) => {
   document.getElementById(`verMais_${projeto}`).style.display = "none";
 };
 
-Navbar("work");
+Navbar("home");
