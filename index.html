@@ -24,27 +24,31 @@
   <body>
     <nav>
       <ul>
-        <li>
-          <i id="home" class="bi bi-house-fill" onclick="Navbar('home')"></i>
+        <li onclick="Navbar('home')">
+          <i id="home" class="bi bi-house-fill" ></i>
+          <p>Home</p>
         </li>
-        <li>
+        <li onclick="Navbar('work')">
           <i
             id="work"
             class="bi bi-briefcase-fill"
-            onclick="Navbar('work')"
+            
           ></i>
+          <p>Trabalho</p>
         </li>
-        <li>
+        <li onclick="Navbar('contact')">
           <i
             id="contact"
             class="bi bi-envelope-fill"
-            onclick="Navbar('contact')"
+            
           ></i>
+          <p>Contato</p>
         </li>
         <li>
           <a href="https://github.com/nunesdotpy" target="_blank"
-            ><i class="bi bi-github"></i
-          ></a>
+            ><i class="bi bi-github"></i>
+            <p>GitHub</p>
+        </a>
         </li>
       </ul>
       <hr />
