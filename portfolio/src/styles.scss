@@ -1,1 +1,14 @@
 /* You can add global styles to this file, and also import other style files */
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@import "bootstrap-icons/font/bootstrap-icons.css";
+@import url('https://fonts.googleapis.com/css2?family=VT323&display=swap');
+
+$primary-color: #090b11;
+$secondary-color: #161621;
+$content-color: #ffffff;
+$shade-color: #848588;
+$accent-color: #159a5e;
+$font-pixel: "VT323", monospace;
