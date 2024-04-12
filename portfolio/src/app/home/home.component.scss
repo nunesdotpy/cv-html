@@ -1,0 +1,15 @@
+@import "../../styles.scss";
+
+#home {
+  background-color: $primary-color;
+  color: $content-color;
+  width: 600px;
+  h1 {
+    text-align: center;
+    color: $accent-color;
+    font-family: $font-pixel;
+  }
+  p {
+    width: 80%;
+  }
+}
