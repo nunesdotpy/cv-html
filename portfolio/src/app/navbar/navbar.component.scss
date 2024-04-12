@@ -1,0 +1,28 @@
+@import "../../styles.scss";
+
+nav {
+    background-color: $primary-color;
+  color: white;
+  padding: 10px;
+  hr {
+    color: $content-color;
+    width: 85%;
+    margin: auto;
+  }
+  ul {
+    padding: 10px 0;
+    li {
+      font-size: 20px;
+      font-family: $font-pixel;
+      color: $shade-color;
+      &:hover {
+        color: $content-color;
+      }
+    }
+    i {
+      font-size: 40px;
+      display: flex;
+      justify-content: center;
+    }
+  }
+}
