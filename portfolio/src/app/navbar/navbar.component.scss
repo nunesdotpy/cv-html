@@ -14,8 +14,11 @@ nav {
       font-size: 20px;
       font-family: $font-pixel;
       color: $shade-color;
+      transition: 0.2s;
       &:hover {
         color: $content-color;
+        scale: 1.1;
+        transition: 0.5s;
       }
     }
     i {
