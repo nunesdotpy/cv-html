@@ -12,3 +12,7 @@ $content-color: #ffffff;
 $shade-color: #848588;
 $accent-color: #159a5e;
 $font-pixel: "VT323", monospace;
+
+body {
+    background-color: $primary-color;
+}
