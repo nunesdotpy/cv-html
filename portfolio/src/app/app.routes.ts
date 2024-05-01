@@ -1,12 +1,12 @@
-import { Routes, RouterModule } from '@angular/router';
-import { ModuleWithProviders } from '@angular/core';
-import { ContatoComponent } from './contato/contato.component';
+import { Routes } from '@angular/router';
+import { HomeComponent } from './home/home.component';
 
-export const routes: Routes = [
-  {
-    path: 'contato',
-    component: ContatoComponent,
-  },
+const routeConfig: Routes = [
+    {
+        path: '',
+        component: HomeComponent,
+        title: 'Home'
+    }
 ];
 
-const routing: ModuleWithProviders = RouterModule.forRoot(routes);
+export default routeConfig;
